@@ -1,0 +1,91 @@
+.Instructors__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+
+.Instructors__subtitle {
+    font-size: 60px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.Instructors__title {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #D0D3DB;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.Instructors__span {
+    position: relative;
+    color:#FFD054 ;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 107px;
+        height: 107px;
+        background-size: contain;
+        top: 60px;
+        right: -300px;
+        background-image: url("../../img/Star.svg");
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        width: 107px;
+        height: 107px;
+        background-size: contain;
+        top: 750px;
+        left: -980px;
+        background-image: url("../../img/Star\ 1.png");
+    }
+}
+
+
+.Instructors__list {
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+.Instructors__item {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    background-color: #2F2B6D;
+    padding:30px 49px 30px 45px;
+    border-radius: 12px;
+}
+
+.Instructors__text {
+    display: flex;
+    gap:80px ;
+}
+
+.Instructors__h2 {
+    font-size:25px ;
+    line-height: 22px;
+    font-weight: 700px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.Instructors__p {
+    font-size:16px ;
+    line-height: 24px;
+    font-weight: 400;
+    color: #D0D3DB;
+}
+
+.Instructors-img {
+    padding: 17px;
+    background-color: #D0D3DB;
+    border-radius: 5px;
+}

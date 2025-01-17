@@ -1,0 +1,143 @@
+.hero__inner {
+    margin-bottom:100px ;
+    position: relative;
+    padding: 80px 0 176px 0;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: -100px;
+        width:951.61px;
+        height: 830px;
+        background-image: url("../../img/big-man.png");
+    }
+}
+
+.hero__text {
+    position: relative;
+    width: 715px;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        top: 0;
+        left: 800px;
+        background-image: url("../../img/Star\ 6.png");
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        top: 350px;
+        left: 600px;
+        background-image: url("../../img/Star\ 5.png");
+    }
+}
+
+.hero__subtitle {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 44px;
+}
+
+.hero__video-link {
+    animation: video 2s linear infinite;
+    position: absolute;
+    top:40px;
+    right: 0;
+}
+
+@keyframes video {
+    0% {
+        transform:rotate(0) ;
+    }
+    100% {
+        transform: rotate(380deg);
+    }
+}
+
+.hero__span {
+    position: relative;
+    color: #FFD054;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        width: 65.71px;
+        height: 65.43px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../../img/moon.png");
+    }
+}
+
+.hero__title {
+    width: 600px;
+    font-size:22px ;
+    line-height: 32px;
+    font-weight: 500;
+    color:#D0D3DB ;
+    margin-bottom: 63px;
+}
+
+.hero__links {
+    display: flex;
+    gap: 26px;
+}
+
+.hero__link {
+    text-decoration: none;
+    padding:24px 36px ;
+    border: 1px solid #FFFFFF66;
+    border-radius:15px ;
+    color: #fff;
+    margin-bottom: 50px;
+    &:hover {
+        border: 1px solid #F2C94C;
+        color: #000;
+        background-color: #F2C94C;
+        transition: all 0.3s linear;
+    }
+}
+
+.hero__content {
+    position: relative;
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    padding-left: 30px;
+    &::before {
+        content: "";
+        position: absolute;
+        top: -40px;
+        left: -5px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("../../img/Union.png");
+        width: 460px;
+        height: 239.02px;
+    }
+}
+
+.hero__active {
+    text-align: center;
+}
+
+.hero__h2 {
+    font-size:44px ;
+    line-height: 54px;
+    color: #D9ECFF;
+    font-weight: 700;
+    margin-bottom:15px ;
+}
+
+.hero__p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #D0D3DB;
+}

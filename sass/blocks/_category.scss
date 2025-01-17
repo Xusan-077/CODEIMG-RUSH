@@ -1,0 +1,74 @@
+
+.category__inner {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category__title {
+    position: relative;
+    font-size:60px ;
+    line-height: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 100px;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 79px;
+        height: 79px;
+        top: -60px;
+        left: -400px;
+        background-image: url("../../img/Star\ 1.png");
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 45.55px;
+        height: 60px;
+        top: 5px;
+        right: -60px;
+        background-image: url("../../img/olov.svg");
+    }
+}
+
+.category__title-span {
+    color: #F2C94C;
+}
+
+.category__cards {
+    display: flex;
+    gap: 40px;
+}
+
+.category__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2F2B6D;
+    border-radius: 20px;
+    padding: 50px 41px 59px 42px;
+    &:nth-child(3) {
+        padding: 50px 30px 59px 30px;
+    }
+    &:nth-child(4) {
+        padding: 50px 30px 59px 30px;
+    }
+    &:nth-child(5) {
+        padding: 50px 50px 59px 50px;
+    }
+    &:nth-child(6) {
+        padding: 50px 60px 59px 60px;
+    }
+}
+
+.category__h3 {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 40px;
+    color: #fff;
+}
+
+
+
