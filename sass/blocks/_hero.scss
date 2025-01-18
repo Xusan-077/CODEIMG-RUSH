@@ -48,7 +48,7 @@
     animation: video 2s linear infinite;
     position: absolute;
     top:40px;
-    right: 0;
+    right: -40px;
 }
 
 @keyframes video {
@@ -107,7 +107,7 @@
 .hero__content {
     position: relative;
     display: flex;
-    gap: 55px;
+    gap: 65px;
     align-items: center;
     padding-left: 30px;
     &::before {

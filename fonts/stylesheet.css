@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Red Rose';
-    src: url('../fonts/RedRose-Medium.woff2') format('woff2'),
-        url('../fonts/RedRose-Medium.woff') format('woff');
+    src: url('RedRose-Medium.woff2') format('woff2'),
+        url('RedRose-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Red Rose';
-    src: url('../fonts/RedRose-Bold.woff2') format('woff2'),
-        url('../fonts/RedRose-Bold.woff') format('woff');
+    src: url('RedRose-Bold.woff2') format('woff2'),
+        url('RedRose-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Red Rose';
-    src: url('../fonts/RedRose-SemiBold.woff2') format('woff2'),
-        url('../fonts/RedRose-SemiBold.woff') format('woff');
+    src: url('RedRose-SemiBold.woff2') format('woff2'),
+        url('RedRose-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'Red Rose';
-    src: url('../fonts/RedRose-Light.woff2') format('woff2'),
-        url('../fonts/RedRose-Light.woff') format('woff');
+    src: url('RedRose-Light.woff2') format('woff2'),
+        url('RedRose-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;

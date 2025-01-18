@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "Red Rose";
+  src: url("../fonts/RedRose-Medium.woff2") format("woff2"), url("../fonts/RedRose-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Red Rose";
+  src: url("../fonts/RedRose-Bold.woff2") format("woff2"), url("../fonts/RedRose-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Red Rose";
+  src: url("../fonts/RedRose-SemiBold.woff2") format("woff2"), url("../fonts/RedRose-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Red Rose";
+  src: url("RedRose-Regular.woff2") format("woff2"), url("RedRose-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Red Rose";
+  src: url("../fonts/RedRose-Light.woff2") format("woff2"), url("../fonts/RedRose-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -317,6 +352,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Red Rose";
 }
 
 *,
@@ -457,7 +493,7 @@ img {
   animation: video 2s linear infinite;
   position: absolute;
   top: 40px;
-  right: 0;
+  right: -40px;
 }
 
 @keyframes video {
@@ -515,7 +551,7 @@ img {
 .hero__content {
   position: relative;
   display: flex;
-  gap: 55px;
+  gap: 65px;
   align-items: center;
   padding-left: 30px;
 }
@@ -600,7 +636,7 @@ img {
 
 .category__cards {
   display: flex;
-  gap: 40px;
+  gap: 30px;
 }
 
 .category__card {
@@ -612,16 +648,16 @@ img {
   padding: 50px 41px 59px 42px;
 }
 .category__card:nth-child(3) {
-  padding: 50px 30px 59px 30px;
+  padding: 50px 25px 59px 25px;
 }
 .category__card:nth-child(4) {
   padding: 50px 30px 59px 30px;
 }
 .category__card:nth-child(5) {
-  padding: 50px 50px 59px 50px;
+  padding: 50px 41px 59px 41px;
 }
 .category__card:nth-child(6) {
-  padding: 50px 60px 59px 60px;
+  padding: 50px 45px 59px 45px;
 }
 
 .category__h3 {
@@ -884,7 +920,7 @@ img {
 
 .Instructors__list {
   display: flex;
-  gap: 45px;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -893,13 +929,13 @@ img {
   align-items: center;
   gap: 28px;
   background-color: #2F2B6D;
-  padding: 30px 49px 30px 45px;
+  padding: 30px 40px 30px 40px;
   border-radius: 12px;
 }
 
 .Instructors__text {
   display: flex;
-  gap: 80px;
+  gap: 70px;
 }
 
 .Instructors__h2 {
